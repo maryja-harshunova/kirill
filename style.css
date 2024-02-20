@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.text-wrapper {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Protest Strike", sans-serif;
+}
+
+.pads-wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.pads-wrapper>div {
+    width: 100px;
+    height: 100px;
+    flex: 1;
+}
+
+.pad1 {
+    background-color: darkolivegreen;
+    flex: 3;
+}
+
+.pad2 {
+    background-color: seagreen;
+    flex: 2;
+}
+
+.pad3 {
+    background-color: green;
+}
+
+.pad4 {
+    background-color: darkslategray;
+}
+
+.pad5 {
+    background-color: black;
+}
+
+.choosen {
+    opacity: 0.5;
+}
